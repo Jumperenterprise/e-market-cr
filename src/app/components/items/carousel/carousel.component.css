@@ -1,0 +1,16 @@
+.picsum-img-wrapper {
+
+}
+
+.picsum-img-wrapper img {
+
+   width: 1080px;
+   height: 400px;
+}
+
+.button button {
+   background-color: #ffffff;
+   height: 40px;
+   width: 80px;
+   border: none;
+}

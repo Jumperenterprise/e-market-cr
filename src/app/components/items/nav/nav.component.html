@@ -1,0 +1,28 @@
+<div class="nav-bar">
+  <button mat-mini-fab class="menu-button" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <img src="../../../../assets/img/Logo.png" alt="">
+    <h1>E-Market</h1>
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <a href="#"><button mat-menu-item>
+      <span>E-Market</span>
+    </button></a>
+    <button mat-menu-item>
+      <span>Carrito de Compra</span>
+    </button>
+    <button mat-menu-item>
+      <span>Exit</span>
+    </button>
+  </mat-menu>
+  <div class="browser">
+    <form>
+      <input type="text" name="search" placeholder="Search..">
+    </form>
+  </div>
+  <div class="form-container">
+    <a href="#">Login</a>
+    <a href="#">Register</a>
+  </div>
+
+</div>  
